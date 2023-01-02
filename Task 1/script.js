@@ -9,27 +9,14 @@ Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 <div id="output"></div> viduje, bei turi turėti bent minimalų stilių;
 ------------------------------------------------------------------- */
 const convertWeight = () => {
-    // Get the input value
     let kg = document.getElementById("kg").value;
-
-    // Convert to lbs
     let lbs = kg * 2.2046;
-
-    // Convert to grams
     let grams = kg / 0.0010000;
-
-    // Convert to oz
     let oz = kg * 35.274;
-
-    // Get the output element
     let output = document.getElementById("output");
-
-    // Build the output string
     let result = "Weight in lbs: " + lbs + "<br>";
     result += "Weight in grams: " + grams + "<br>";
     result += "Weight in oz: " + oz;
-
-    // Set the output element's HTML
     output.innerHTML = result;
 };
 document.getElementById("kg").addEventListener("input", convertWeight);
