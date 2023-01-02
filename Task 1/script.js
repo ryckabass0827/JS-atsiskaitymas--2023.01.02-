@@ -19,5 +19,6 @@ const convertWeight = () => {
     result += "Weight in oz: " + oz;
     output.innerHTML = result;
 };
+
 document.getElementById("kg").addEventListener("input", convertWeight);
 
