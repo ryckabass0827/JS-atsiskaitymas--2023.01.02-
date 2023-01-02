@@ -14,9 +14,9 @@ const convertWeight = () => {
     let grams = kg / 0.0010000;
     let oz = kg * 35.274;
     let output = document.getElementById("output");
-    let result = "Weight in lbs: " + lbs + "<br>";
-    result += "Weight in grams: " + grams + "<br>";
-    result += "Weight in oz: " + oz;
+    let result = "Svoris svarais : " + lbs + "<br>";
+    result += "Svoris gramais : " + grams + "<br>";
+    result += "Svoris uncijomis : " + oz;
     output.innerHTML = result;
 };
 

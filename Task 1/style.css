@@ -28,6 +28,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: baseline;
 }
 
 #search {
@@ -70,4 +71,29 @@ form {
   font-weight: bold;
   color: blue;
   text-align: center;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px;
+
+
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+}
+
+body {
+  margin: 0;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
 }
